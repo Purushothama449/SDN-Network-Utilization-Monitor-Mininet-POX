@@ -161,28 +161,22 @@ Flow (10.0.0.1 → 10.0.0.2) | Bytes=98 | Bandwidth=391.36 bps
 ## 📸 Screenshots
 
 ### 🔹 Controller Initialization
-
-![Controller Start](screenshot/01_controller_start.png)
+![Controller Start](screenshots/01_controller_start.png)
 
 ### 🔹 Mininet Topology
+![Topology](screenshots/02_mininet_topology.png)
 
-![Topology](screenshot/02_mininet_topology.png)
-
-### 🔹 Ping Test (Connectivity)
-
-![Ping](screenshot/03_ping_test.png)
+### 🔹 Ping Test
+![Ping](screenshots/03_ping_test.png)
 
 ### 🔹 Traffic Generation (iperf)
-
-![Iperf](screenshot/04_iperf_test.png)
+![Iperf](screenshots/04_iperf_test.png)
 
 ### 🔹 Bandwidth Monitoring Output ⭐
-
-![Bandwidth](screenshot/05_bandwidth_output.png)
+![Bandwidth](screenshots/05_bandwidth_output.png)
 
 ### 🔹 Flow Table (Optional)
-
-![Flow Table](screenshot/06_flow_table.png)
+![Flow Table](screenshots/06_flow_table.png)
 
 ---
 

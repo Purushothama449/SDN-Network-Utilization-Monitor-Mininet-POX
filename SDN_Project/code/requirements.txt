@@ -1,0 +1,22 @@
+# ==========================================================
+# Project: Network Utilization Monitor
+# Author: Purushothama K C
+# Description: Monitors bandwidth utilization using POX SDN Controller
+# ==========================================================
+
+# Python Version Requirement
+python>=3.6
+
+# Dependencies (Installation Method Mentioned)
+
+# POX Controller (Manual Installation Required)
+# git clone https://github.com/noxrepo/pox.git
+pox
+
+# Mininet Network Emulator (Install via apt)
+# sudo apt install mininet
+mininet
+
+# Open vSwitch (Required for Mininet)
+# sudo apt install openvswitch-switch
+openvswitch-switch

@@ -159,7 +159,6 @@ Flow (10.0.0.1 → 10.0.0.2) | Bytes=98 | Bandwidth=391.36 bps
 ---
 
 ## 📸 Screenshots
-
 ### 🔹 Controller Initialization
 ![Controller Start](screenshots/01_controller_start.png)
 

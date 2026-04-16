@@ -1,6 +1,6 @@
-# 📡 Network Utilization Monitor using Mininet & POX
+#  Network Utilization Monitor using Mininet & POX
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a **Network Utilization Monitor** using **Software Defined Networking (SDN)** principles. It leverages:
 
@@ -10,13 +10,13 @@ This project implements a **Network Utilization Monitor** using **Software Defin
 
 The system continuously monitors network traffic and calculates:
 
-* 📊 Byte count
-* 📶 Bandwidth utilization (bits per second)
-* 🔄 Real-time updates
+*  Byte count
+*  Bandwidth utilization (bits per second)
+*  Real-time updates
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Monitor network traffic dynamically
 * Collect byte counters from OpenFlow switches
@@ -26,7 +26,7 @@ The system continuously monitors network traffic and calculates:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **Python**
 * **Mininet**
@@ -36,7 +36,7 @@ The system continuously monitors network traffic and calculates:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 SDN_PROJECT/
@@ -56,7 +56,7 @@ SDN_PROJECT/
 
 ---
 
-## ⚙️ System Requirements
+##  System Requirements
 
 * Linux (Kali / Ubuntu recommended)
 * Python ≥ 3.6
@@ -66,9 +66,9 @@ SDN_PROJECT/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Install Dependencies
+### 1️ Install Dependencies
 
 ```bash
 sudo apt update
@@ -77,7 +77,7 @@ sudo apt install mininet openvswitch-switch -y
 
 ---
 
-### 2️⃣ Clone POX Controller
+### 2️ Clone POX Controller
 
 ```bash
 git clone https://github.com/noxrepo/pox.git
@@ -86,9 +86,9 @@ cd pox
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
-### 🔹 Step 1: Start POX Controller
+###  Step 1: Start POX Controller
 
 ```bash
 cd ~/pox
@@ -103,7 +103,7 @@ cd ~/pox
 
 ---
 
-### 🔹 Step 2: Start Mininet Topology
+###  Step 2: Start Mininet Topology
 
 Open a new terminal:
 
@@ -118,7 +118,7 @@ sudo mn --topo single,2 --controller remote,ip=127.0.0.1,port=6633 --mac
 
 ---
 
-### 🔹 Step 3: Test Connectivity
+###  Step 3: Test Connectivity
 
 ```bash
 pingall
@@ -132,7 +132,7 @@ pingall
 
 ---
 
-### 🔹 Step 4: Generate Traffic
+###  Step 4: Generate Traffic
 
 ```bash
 iperf h1 h2
@@ -142,7 +142,7 @@ iperf h1 h2
 
 ---
 
-## 📊 Output Explanation
+##  Output Explanation
 
 The controller prints real-time statistics like:
 
@@ -150,7 +150,7 @@ The controller prints real-time statistics like:
 Flow (10.0.0.1 → 10.0.0.2) | Bytes=98 | Bandwidth=391.36 bps
 ```
 
-### 🔍 Meaning:
+###  Meaning:
 
 * **Source IP → Destination IP**
 * **Bytes** → Total data transferred
@@ -158,28 +158,28 @@ Flow (10.0.0.1 → 10.0.0.2) | Bytes=98 | Bandwidth=391.36 bps
 
 ---
 
-## 📸 Screenshots
-### 🔹 Controller Initialization
+##  Screenshots
+###  Controller Initialization
 ![Controller Start](screenshots/01_controller_start.png)
 
-### 🔹 Mininet Topology
+###  Mininet Topology
 ![Topology](screenshots/02_mininet_topology.png)
 
-### 🔹 Ping Test
+###  Ping Test
 ![Ping](screenshots/03_ping_test.png)
 
-### 🔹 Traffic Generation (iperf)
+###  Traffic Generation (iperf)
 ![Iperf](screenshots/04_iperf_test.png)
 
-### 🔹 Bandwidth Monitoring Output ⭐
+###  Bandwidth Monitoring Output 
 ![Bandwidth](screenshots/05_bandwidth_output.png)
 
-### 🔹 Flow Table (Optional)
+###  Flow Table
 ![Flow Table](screenshots/06_flow_table.png)
 
 ---
 
-## ✅ Results
+##  Results
 
 * Successfully established Mininet network
 * Verified connectivity using ping
@@ -189,7 +189,7 @@ Flow (10.0.0.1 → 10.0.0.2) | Bytes=98 | Bandwidth=391.36 bps
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 * POX may show Python version warnings (safe to ignore)
 * Always run Mininet with `sudo`
@@ -198,7 +198,7 @@ Flow (10.0.0.1 → 10.0.0.2) | Bytes=98 | Bandwidth=391.36 bps
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 * GUI dashboard for visualization
 * Store metrics in database
@@ -207,13 +207,13 @@ Flow (10.0.0.1 → 10.0.0.2) | Bytes=98 | Bandwidth=391.36 bps
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Purushothama K C**
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates how **Software Defined Networking (SDN)** can be used to monitor and analyze network traffic efficiently. By combining Mininet and POX, we can simulate real-world networks and implement intelligent monitoring systems.
 

@@ -160,8 +160,7 @@ Flow (10.0.0.1 → 10.0.0.2) | Bytes=98 | Bandwidth=391.36 bps
 
 ##  Screenshots
 ###  Controller Initialization
-![Controller Start](SDN_Project
-/screenshot/01_controller_start.png)
+![Controller Start](SDN_Project/screenshot/01_controller_start.png)
 
 ###  Mininet Topology
 ![Topology](screenshots/02_mininet_topology.png)

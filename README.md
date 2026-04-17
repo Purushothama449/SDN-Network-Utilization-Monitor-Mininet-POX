@@ -163,19 +163,19 @@ Flow (10.0.0.1 → 10.0.0.2) | Bytes=98 | Bandwidth=391.36 bps
 ![Controller Start](SDN_Project/screenshot/01_controller_start.png)
 
 ###  Mininet Topology
-![Topology](SDN_Project/screenshots/02_mininet_topology.png)
+![Topology](SDN_Project/screenshot/02_mininet_topology.png)
 
 ###  Ping Test
-![Ping](SDN_Project/screenshots/03_ping_test.png)
+![Ping](SDN_Project/screenshot/03_ping_test.png)
 
 ###  Traffic Generation (iperf)
-![Iperf](SDN_Project/screenshots/04_iperf_test.png)
+![Iperf](SDN_Project/screenshot/04_iperf_test.png)
 
 ###  Bandwidth Monitoring Output 
-![Bandwidth](SDN_Project/screenshots/05_bandwidth_output.png)
+![Bandwidth](SDN_Project/screenshot/05_bandwidth_output.png)
 
 ###  Flow Table
-![Flow Table](SDN_Project/screenshots/06_flow_table.png)
+![Flow Table](SDN_Project/screenshot/06_flow_table.png)
 
 ---
 
